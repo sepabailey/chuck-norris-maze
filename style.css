@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Nosifer|Shojumaru&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(images/chuck-background.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 65px;
+  color: #8b0000;
+  font-family: "Nosifer", cursive;
+  /*background: #d2b48c;*/
+}
+
+h2 {
+  font-family: "Shojumaru", cursive;
+  color: #8b0000;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  /*background-color: black;*/
+}
+
+#header {
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: "Shojumaru", cursive;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+#player {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.mazeRow {
+  flex-direction: row;
+  display: flex;
+}
+
+.wall {
+  height: 50px;
+  width: 50px;
+  background: url(images/brick1.png);
+}
+
+#start {
+  background: url(images/dirt1.png);
+  height: 50px;
+  width: 50px;
+}
+
+#finish {
+  height: 50px;
+  width: 50px;
+  background: url(images/dirt1.png);
+}
+
+.walkway {
+  height: 50px;
+  width: 50px;
+  background: url(images/dirt1.png);
+}
+
+#button {
+  font-size: 25px;
+  color: #8b0000;
+  margin-bottom: 10px;
+  font-family: "Shojumaru", cursive;
+}
